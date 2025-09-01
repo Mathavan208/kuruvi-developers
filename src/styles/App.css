@@ -1,0 +1,34 @@
+/* src/styles/App.css */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #1a1a1d;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #a64d79;
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #6a1e55;
+}
+
+/* src/styles/App.css */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Add to existing styles */
+.hero-section {
+  scroll-margin-top: 80px; /* Adjust based on your navbar height */
+}
